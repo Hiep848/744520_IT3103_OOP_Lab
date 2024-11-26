@@ -19,6 +19,8 @@ public class StoreTest {
 				"Animation", 18.99f);
 		store.addDVD(dvd3);
 		
+		store.print();
+		
 		store.removeDVD(dvd2);
 		
 		store.print();
